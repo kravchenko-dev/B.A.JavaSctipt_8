@@ -1,0 +1,60 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+button {
+  background: red;
+  width: 100px;
+  height: 40px;
+  display: block;
+  margin-top: 100px;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#list {
+  text-align: center;
+  background-color: green;
+  font-size: 30px;
+}
+
+.modal {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  width: 40%;
+  height: 30%;
+  background-color: #000;
+  opacity: 0.85;
+}
+
+#trafficLight {
+  margin: 10px auto;
+  background-color: #010223;
+  width: 150px;
+  height: 450px;
+  border: black solid 2px;
+}
+
+#green,
+#yellow,
+#red {
+  background-color: white;
+  border: black solid 2px;
+  width: 146px;
+  height: 146px;
+  border-radius: 50%;
+}
+
+.green {
+  background: green;
+}
+
+.yellow {
+  background: yellow;
+}
+
+.red {
+  background: red;
+}
